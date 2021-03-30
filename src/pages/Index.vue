@@ -3,9 +3,9 @@
 
     <q-input v-model="novaTarefa" label="O que você quer fazer?" />
 
-    <q-btn outline
+    <q-btn
       class="full-width"
-      color="primary"
+      color="deep-purple-10"
       icon="add"
       label="Adicioniar Tarefa"
       @click="adicionarTarefaNaLista()" />
